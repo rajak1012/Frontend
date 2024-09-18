@@ -1,0 +1,102 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("C:\Users\RAJA.K\Downloads\pexels-roman-odintsov-5912284.jpg");
+    background-size: cover;
+}
+
+/* Header styles */
+header {
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+form > input {
+    padding: 12px;
+    border: 2px solid #661c14;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 300px;
+     
+}
+
+form > button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-left: 15px;
+    border: none;
+    background-color: #261c15;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+ 
+
+/* Task container styles */
+.task {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color:#606c38;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Task item styles */
+.task > div {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f3f1ef;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ; 
+}
+.task > content {
+    text-align: center;
+    flex-grow: 1; /* Ensures the content is centered */
+}
+
+/* Button container */
+.task > button > container {
+    margin-left: auto; /* Aligns the buttons to the right */
+    display: flex;
+    gap: 5px; /* Adds space between buttons */
+}
+
+/* Button styles within task items */
+.task button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-color:#bc6c25;
+}
+ 
+
+
+    
+
+
